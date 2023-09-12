@@ -18,8 +18,8 @@ int	ft_str_is_uppercase(char *str)
 /*
 int	main()
 {
-       printf("%d", ft_str_is_uppercase("ABCDEFGH"));
-       printf("\n%d", ft_str_is_uppercase("ABCDEFGHaI"));
-       printf("\n%d", ft_str_is_uppercase("-_134556ABCDEFGaH67"));
+       printf("%d", ft_str_is_uppercase("ABCDEF"));
+       printf("\n%d", ft_str_is_uppercase("ABcDeF"));
+       printf("\n%d", ft_str_is_uppercase("-_JKG7t67"));
 }
 */
