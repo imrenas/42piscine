@@ -18,8 +18,8 @@ int	ft_str_is_lowercase(char *str)
 /*
 int	main()
 {
-	printf("%d", ft_str_is_lowercase("abcdefghijkl"));
-  printf("\n%d", ft_str_is_lowercase("abcAdefghijkl"));
-  printf("\n%d", ft_str_is_lowercase("-_134556efSghij67"));
+	printf("%d", ft_str_is_lowercase("abcde"));
+  printf("\n%d", ft_str_is_lowercase("abcAde"));
+  printf("\n%d", ft_str_is_lowercase("-_qwxcwaop9"));
 }
 */
