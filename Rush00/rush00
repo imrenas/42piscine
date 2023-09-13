@@ -1,0 +1,44 @@
+void	ft_putchar(char c);
+
+void	make_line(int comp, char q, char w, char e)
+{
+	int	x_count;
+
+	x_count = 0;
+	while (x_count < comp)
+	{
+		if (x_count == 0)
+			ft_putchar(q);
+		else
+		{
+			if (x_count == comp - 1)
+				ft_putchar(e);
+			else
+				ft_putchar(w);
+		}
+		x_count++;
+	}
+	ft_putchar('\n');
+}
+
+void	rush(int x, int y)
+{
+	int	y_count;
+
+	y_count = 0;
+	if (x <= 0 || y <= 0)
+		return ;
+	while (y_count < y)
+	{
+		if (y_count == 0)
+			make_line(x, 'o', '-', 'o');
+		else
+		{
+			if (y_count == y -1)
+				make_line(x, 'o', '-', 'o');
+			else
+				make_line(x, '|', ' ', '|');
+		}
+		y_count++;
+	}
+}
